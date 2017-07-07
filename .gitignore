@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
 tmp
 venv/
-
+datasets/*
+!datasets/.gitkeep
