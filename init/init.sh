@@ -37,7 +37,7 @@ else
 fi
 
 echo "> Installing dependencies with pip"
-pip install keras tensorflow jupyter numpy pandas sklearn
+pip install keras tensorflow jupyter numpy pandas sklearn matplotlib
 
 echo "> Running Python init script"
 python init/init.py

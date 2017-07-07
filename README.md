@@ -17,7 +17,7 @@ cd ~/your/workspace
 virtualenv -p python3 venv # if missing: 'sudo pip install virtualenv'
 
 # install dependencies
-pip install keras tensorflow jupyter numpy pandas sklearn
+pip install keras tensorflow jupyter numpy pandas sklearn matplotlib
 ```
 
 ### Before the tutorial
