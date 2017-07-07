@@ -3,6 +3,9 @@ This tutorial provides a brief introduction into the application of Artificial N
 
 
 ## Setup
+### The easy way
+When you are on linux, there is an init bash script at `init/init.sh` you can run. Set the `--no-venv` flag if you don't want to use a virtual environment. This script essentially (should) take care of the following two subsections for you.
+
 ### Install dependencies
 We are not looking for high performance GPU accelerated computations here, so a basic installation of [TensorFlow](https://www.tensorflow.org/) is sufficient. It is assumed, that you have Python3 installed on your computer. We recommend using a virtual environment, but that's up to you.
 
@@ -14,7 +17,7 @@ cd ~/your/workspace
 virtualenv -p python3 venv # if missing: 'sudo pip install virtualenv'
 
 # install dependencies
-pip install keras tensorflow jupyter numpy pandas
+pip install keras tensorflow jupyter numpy pandas sklearn
 ```
 
 ### Before the tutorial
@@ -26,7 +29,7 @@ cd ~/your/workspace
 source venv/bin/activate
 
 # loading datasets and testing setup
-python init.py
+python init/init.py
 
 # (leave the environment again)
 deactivate
