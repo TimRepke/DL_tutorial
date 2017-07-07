@@ -66,12 +66,13 @@ In case you broke your notebook, go to `Edit->Edit Notebook Metadata` and add
 	"height": 900,
 	"scroll": false,
 	"progress": true,
-	"start_slideshow_at": 'beginning'
+	"start_slideshow_at": "beginning"
 }
 ```
 Alternative options:
 - `transition`: none, fade, slide, convex, concave, zoom, linear
 - `theme`: black, white, league, sky, beige, simple, serif, blood, night, moon, solarized
 - `start_slideshow_at`: beginning, selected
+
 To configure which cells are part of the presentation, activate `View->Cell Toolbar->Slideshow`. Nothing selected is part of the previous slide, 'slide' begins a new slide or 'sub-slide', 'fragment's are for step by step reveals on a slide, 'skip' is not shown during presentation, whereas 'notes' are there as your speaker notes (not working).
 
