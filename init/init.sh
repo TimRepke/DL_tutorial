@@ -42,6 +42,12 @@ pip install keras tensorflow jupyter numpy pandas sklearn matplotlib
 echo "> Running Python init script"
 python init/init.py
 
+echo "> Downloading GloVe embeddings (822MB)..."
+wget -O datasets/glove.6B.zip http://nlp.stanford.edu/data/glove.6B.zip
+cd datasets
+unzip glove.6B.zip
+rm glove.6B.zip
+
 echo "> All done!"
 echo "  In case you ran into errors, consult the internet or your nearest Python expert."
 echo "  Ideally, you should test jupyter yourself by starting a notebook and just run some Python code."
