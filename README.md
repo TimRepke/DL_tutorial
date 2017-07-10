@@ -1,5 +1,7 @@
+**THIS IS WORK IN PROGRESS**
+
 # Deep Learning Tutorial
-This tutorial provides a brief introduction into the application of Artificial Neural Networks for classification tasks. We show 
+This tutorial provides a brief introduction into the application of Artificial Neural Networks for classification tasks.  
 
 
 ## Setup
@@ -35,7 +37,6 @@ python init/init.py
 deactivate
 ```
 
-
 ### During the tutorial
 Download the `DLTutorial.ipynb` file (or clone the repository) and store it in `~/your/workspace`.
 ```bash
@@ -50,7 +51,7 @@ jupyter-notebook .
 A browser tab should open. In the list you should see the file we just downloaded - open it! If you never used jupyter before, consult [their introduction](http://jupyter-notebook.readthedocs.io/en/latest/notebook.html#notebook-user-interface).
 
 ### Presenting the tutorial
-Check out [RISE](https://github.com/damianavila/RISE), it's nice.
+This section is for presenters only. Check out [RISE](https://github.com/damianavila/RISE), it seems nice and lets you switch into a presentation mode in your Jupyter Notebook as it is running.
 ```bash
 pip install RISE
 jupyter-nbextension install rise --py --sys-prefix
