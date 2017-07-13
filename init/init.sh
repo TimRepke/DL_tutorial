@@ -19,13 +19,13 @@ WITH_VENV=1
 while true ; do
     case "$1" in
         -n|--no-venv) WITH_VENV=0 ; shift ;;
-        -h|--help) help() ; exit 0 ;;
+        -h|--help) help ; exit 0 ;;
         --) shift ; break ;;
-        *) echo "Internal error!" ; help() ; exit 1 ;;
+        *) echo "Internal error!" ; help ; exit 1 ;;
     esac
 done
 
-if [ $WITH_VENV -eq 0 ]; then
+if [ $WITH_VENV -eq 1 ]; then
 	echo "> Creating virtual environment..."
 	virtualenv -p python3 venv
 	
