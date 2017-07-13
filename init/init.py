@@ -44,7 +44,7 @@ model.add(Activation('relu'))
 model.add(Dense(units=1))
 model.add(Activation('softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='sgd', metrics=['accuracy'])
-model.fit(np.array([[1,1],[1,2],[1,2],[1,1]]), np.array([0,1,1,0]), epoch=2, batch_size=1, verbose=0)
+model.fit(np.array([[1,1],[1,2],[1,2],[1,1]]), np.array([0,1,1,0]), epochs=2, batch_size=1, verbose=0)
 
 print('> testing sklearn')
 import sklearn
