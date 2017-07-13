@@ -33,6 +33,11 @@ source venv/bin/activate
 # loading datasets and testing setup
 python init/init.py
 
+# more data
+wget -O datasets/glove.6B.zip http://nlp.stanford.edu/data/glove.6B.zip
+cd datasets
+unzip glove.6B.zip
+
 # (leave the environment again)
 deactivate
 ```
