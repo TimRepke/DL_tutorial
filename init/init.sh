@@ -42,8 +42,8 @@ pip install keras tensorflow jupyter numpy pandas sklearn matplotlib
 echo "> Running Python init script"
 python init/init.py
 
-echo "> Downloading GloVe embeddings (822MB)..."
-wget -O datasets/glove.6B.zip http://nlp.stanford.edu/data/glove.6B.zip
+echo "> Downloading GloVe embeddings (62MB)..."
+wget -O datasets/glove.6B.zip https://owncloud.hpi.de/s/rQpLtl2LDlG0exL/download
 cd datasets
 unzip glove.6B.zip
 rm glove.6B.zip
